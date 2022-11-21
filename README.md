@@ -11,7 +11,7 @@ a = -9 b = -3 -> max = -3
 *Блок-схема*
 
 ![diagram](Задача2.png)
-Attention! There is an error in the block diagram. Count max = a
+Внимание! В блок-схеме допущена ошибка. Считать max = a.
 
 
 
