@@ -10,6 +10,9 @@ a = -9 b = -3 -> max = -3
 
 *Блок-схема*
 
-![diagram](C:\Users\Александра\Desktop\C#\Lesson1_1\Задача2.png)
+
+
+
+
 
 
