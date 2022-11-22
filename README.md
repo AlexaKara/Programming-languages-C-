@@ -26,7 +26,7 @@ a = -9 b = -3 -> max = -3
 
 *Блок-схема*
 
-![diagram](Задача3.drawio.png)
+![diagram](Задача3-Page-2.drawio.png)
 
 
 
