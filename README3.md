@@ -70,7 +70,9 @@ void PrintBad(int[] numbers)
   Console.WriteLine();
 
 }
-Метод выводит результат в консоль.
+
+## Метод выводит результат в консоль.
+
 
 string PrintGood(int[] numbers)
 
@@ -96,4 +98,4 @@ string PrintGood(int[] numbers)
 
 }
 
-Используется string- т.е. результат выводится в виде строки.
+## Используется string- т.е. результат выводится в виде строки.
