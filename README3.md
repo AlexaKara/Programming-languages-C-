@@ -32,3 +32,54 @@ int[] Solution(int[] collectionElements, int evenCounts)
 
   return items;
 }
+
+# Задание 2
+
+## Условие
+Почему метод печатающий массив PrintBad хуже метода PrintGood
+
+void PrintBad(int[] numbers)
+
+{
+  int size = numbers.Length;
+
+  int i = 0;
+
+  while (i < size)
+  {
+    Console.Write($"{numbers
+    [i]} ");
+
+    i++;
+  }
+
+  Console.WriteLine();
+
+}
+Метод выводит результат в консоль.
+
+string PrintGood(int[] numbers)
+
+{
+  int size = numbers.Length;
+
+  int i = 0;
+
+  string result = "[ ";
+
+
+  while (i < size)
+
+  {
+    result += ($"{numbers[i]} 
+    ");
+
+    i++;
+
+  }
+
+  return result + "]";
+
+}
+
+Используется string- т.е. результат выводится в виде строки.
