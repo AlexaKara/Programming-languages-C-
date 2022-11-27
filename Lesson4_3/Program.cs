@@ -30,4 +30,4 @@ string PrintGood(int[] numbers)
 int[] array = CreateArray(8);
 Console.WriteLine(PrintGood(array));
 Fill(array, 1, 20); 
-Console.WriteLine(PrintGood(array)); 
+Console.WriteLine(PrintGood(array));
