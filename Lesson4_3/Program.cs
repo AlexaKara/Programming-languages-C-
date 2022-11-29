@@ -11,7 +11,6 @@ void Fill(int[] array, int min, int max)
         array[i] = new Random().Next(min, max);
     }
 }
-
 string PrintGood(int[] numbers)
     {
         int size = numbers.Length;
@@ -25,6 +24,8 @@ string PrintGood(int[] numbers)
         }
         return result + "]";
     }
+
+
 
 
 int[] array = CreateArray(8);
