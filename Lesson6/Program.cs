@@ -1,4 +1,6 @@
-﻿int[] Sum(int[] f, int[] g)
+﻿// Написать программу сложения и вычитания двух многочленов
+
+int[] Sum(int[] f, int[] g)
 {
   int powF = f.Length;
   int powG = g.Length;
