@@ -1,5 +1,4 @@
-﻿//метод, создающий треугольник Паскаля
-int[,] CreateTriangle(int row)
+﻿int[,] CreateTriangle(int row)
 {
   int[,] triangle = new int[row, row];
   for (int i = 0; i < row; i++)
@@ -19,7 +18,6 @@ int[,] CreateTriangle(int row)
   return triangle;
 }
 
-//метод печати треугольника Паскаля
 void PrintTriangle(int[,] triangle)
 {
   int row = triangle.GetLength(0);
@@ -34,7 +32,6 @@ void PrintTriangle(int[,] triangle)
   }
 }
 
-//метод, получения коэффициента многочлена 
 int[] GetKoeff(int[,] tr, int pow)
 {
   int[] row = new int[pow + 1];
@@ -45,7 +42,6 @@ int[] GetKoeff(int[,] tr, int pow)
   return row;
 }
 
-//метод печати суммы многочлена
 string PrintKoeff(int[] array)
 {
   string output = String.Empty;
