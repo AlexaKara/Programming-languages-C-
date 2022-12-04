@@ -1,10 +1,8 @@
-﻿//метод, который создаёт трёхмерный массив
-int[,,] CreateMatrix(int x, int y, int z)
+﻿int[,,] CreateMatrix(int x, int y, int z)
     {
         return new int[x,y,z];
     }
 
-//метод, который заполняет трёхмерный массив
 int[,,] FillMatrix(int[,,] matrix)
 {
     int min = 10;
@@ -22,7 +20,6 @@ int[,,] FillMatrix(int[,,] matrix)
     return matrix;
 }
 
-//метод печати трёхмерного массива
 string PrintMatrix(int[,,] matrix)
 {
     string result = string.Empty;
